@@ -3,7 +3,7 @@
 This is my personal portfolio website, built entirely with **HTML and CSS**.  
 It’s a space where I showcase my skills, tech stack, and journey as a developer.  
 
-🚀 Live here: [https://your-username.github.io](https://YugIyer.github.io)
+🚀 Live here: [https://YugIyer.github.io](https://YugIyer.github.io)
 
 ---
 
