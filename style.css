@@ -96,6 +96,7 @@ section {
     justify-content: center;
     align-content: center;
     gap: 2rem;
+    flex-grow: 1;
 }
 .homeimage{
     width: 100%;
@@ -195,7 +196,8 @@ html {
         #8b0000 100%
     ) 1;
     height: 400px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -203,7 +205,8 @@ html {
     display: flex;
     text-align: center;
     flex-direction: column;
-   transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    flex-grow: 1;
 }
 .Sbox:hover {
   transform: scale(1.2);
@@ -231,6 +234,7 @@ html {
     align-content: center;
 }
 .TSbox{
+    flex-grow: 1;
     background: linear-gradient(
         135deg,
         rgb(0,0,0) 0%,
@@ -420,5 +424,16 @@ html {
     }
     to {
         background-position: 0% center;
+    }
+}
+@media (max-widht: 768px){
+
+    .secskills{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .sectechstack{
+        flex-direction: column;
+        gap: 40px;
     }
 }
