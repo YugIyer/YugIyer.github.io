@@ -308,6 +308,10 @@ html {
 
 }
 .contactcon{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: linear-gradient(
         135deg,
         rgb(0,0,0) 0%,
@@ -333,6 +337,7 @@ html {
     text-align: left;
     font-size: 20px;
     line-height: 1.8;
+    flex-grow: 1;
 }
 .social-icons{
     display: flex;
