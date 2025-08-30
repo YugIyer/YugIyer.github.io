@@ -25,7 +25,7 @@ It’s a space where I showcase my skills, tech stack, and journey as a develope
 ---
 
 ## 📸 Preview
-![Portfolio Preview](./screenshot.png)  
+![Portfolio Preview](./Screenshot.png)  
 
 ---
 
